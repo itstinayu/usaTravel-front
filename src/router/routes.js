@@ -138,6 +138,16 @@ const routes = [
           login: true,
           admin: false
         }
+      },
+      {
+        path: 'home2',
+        name: 'user-order',
+        component: () => import('../pages/user/UserHomePage.vue'),
+        meta: {
+          title: '會員首頁',
+          login: true,
+          admin: false
+        }
       }
     ]
   },

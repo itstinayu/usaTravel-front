@@ -293,6 +293,3 @@ const swiperOptions = {
 .parallaxBg2
   filter: brightness(20) saturate(100%) invert(45%) sepia(50%) saturate(990%) hue-rotate(1deg) brightness(110%) contrast(120%)
 </style>
-<style type="text/css">
-    .st0{fill:none;stroke:rgba(255, 0, 0, 0);stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-</style>

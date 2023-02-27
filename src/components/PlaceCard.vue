@@ -48,6 +48,6 @@ const openTripAdvisor = () => {
   window.open('https://www.tripadvisor.com/')
 }
 const openReview = () => {
-  window.open('{{ web_url }}')
+  window.open(' web_url ')
 }
 </script>

@@ -46,6 +46,15 @@
             </q-item-section>
           </q-item>
 
+          <q-item v-ripple clickable to="/user/home">
+            <q-item-section avatar>
+              <q-icon name="calendar_month" />
+            </q-item-section>
+            <q-item-section>
+              月曆記事本
+            </q-item-section>
+          </q-item>
+
         </q-list>
       </q-scroll-area>
 

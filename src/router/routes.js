@@ -100,7 +100,7 @@ const routes = [
     component: () => import('layouts/UserLayout.vue'),
     children: [
       {
-        path: '',
+        path: 'home',
         name: 'user-home',
         component: () => import('../pages/user/UserHomePage.vue'),
         meta: {

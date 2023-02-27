@@ -51,7 +51,7 @@
 
       <div class="absolute-top bg-secondary" style="height: 150px">
         <div class="absolute-bottom bg-transparent q-pa-md" clickable>
-          <q-btn round clickable to="/user/archive">
+          <q-btn round clickable to="/user/home">
             <img :src="avatar" >
           </q-btn>
           <div class="text-weight-bold" :title="account">
@@ -63,7 +63,7 @@
     </q-drawer>
 
     <q-page-container>
-      <q-page padding>
+      <q-page>
         <router-view />
       </q-page>
     </q-page-container>

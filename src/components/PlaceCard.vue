@@ -23,8 +23,9 @@
         </q-item-label>
       </q-item-label>
     </q-card-section>
-    <q-card-actions align="right">
+    <q-card-actions align="center">
       <q-btn label="Trip Advisor" color="primary" @click="openTripAdvisor" />
+      <q-btn label="Review" color="accent" @click="openReview" />
     </q-card-actions>
   </q-card>
 </template>
@@ -37,12 +38,16 @@ const props = defineProps({
   photo: String,
   rating: Number,
   numReviews: Number,
-  address: String
+  address: String,
+  web_url: String
 })
 
 const { name, photo, rating, numReviews, address } = toRefs(props)
 
 const openTripAdvisor = () => {
   window.open('https://www.tripadvisor.com/')
+}
+const openReview = () => {
+  window.open('{{ web_url }}')
 }
 </script>

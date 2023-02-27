@@ -181,7 +181,8 @@ const mapData = (data) => {
     data.address,
     data.rating,
     data.num_reviews,
-    data.photo?.images?.small?.url
+    data.photo?.images?.small?.url,
+    data.web_url
   ]
 }
 const getPlaceData = async (bounds) => {

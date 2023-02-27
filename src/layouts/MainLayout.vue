@@ -24,12 +24,12 @@
             景點票券
           </router-link>
           <router-link :to="'/map/'">
-            你的行程
+            地圖快搜
           </router-link>
           <router-link :to="'/guides/'">
             常見QA
           </router-link>
-          <a href="javascript:void(0)" class="text-white">
+          <a href="#photoShare" class="text-white photoShare" >
             分享牆
           </a>
         </div>

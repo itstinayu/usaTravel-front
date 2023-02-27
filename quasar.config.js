@@ -70,7 +70,7 @@ module.exports = configure(function (/* ctx */) {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      publicPath: '/usaTravel-front',
+      publicPath: '/usaTravel-front-2-',
       // analyze: true,
       env: { VITE_API: process.env.VITE_API, rapidapi_key: process.env.rapidapi_key, google_key: process.env.google_key },
       // env: {},

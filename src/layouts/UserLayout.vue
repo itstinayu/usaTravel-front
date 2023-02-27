@@ -46,7 +46,7 @@
             </q-item-section>
           </q-item>
 
-          <q-item v-ripple clickable to="/user/home">
+          <q-item v-ripple clickable to="/user/home2">
             <q-item-section avatar>
               <q-icon name="calendar_month" />
             </q-item-section>

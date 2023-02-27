@@ -141,7 +141,7 @@ const routes = [
       },
       {
         path: 'home2',
-        name: 'user-order',
+        name: 'user-home2',
         component: () => import('../pages/user/UserHomePage.vue'),
         meta: {
           title: '會員首頁',

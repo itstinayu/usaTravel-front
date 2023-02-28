@@ -64,8 +64,8 @@ const mapEl = ref(null)
 const infowindowEl = ref(null)
 const placeNameEl = ref(null)
 const placeAddressEl = ref(null)
-const type = ref('餐廳')
-const rating = ref('全部')
+const type = ref('restaurants')
+const rating = ref('')
 
 const locations = {
   restaurants: [],

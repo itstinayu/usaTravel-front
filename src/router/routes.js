@@ -102,7 +102,7 @@ const routes = [
       {
         path: '',
         name: 'user-home',
-        component: () => import('../pages/user/HomePage.vue'),
+        component: () => import('../pages/user/UserHomePage.vue'),
         meta: {
           title: '會員首頁',
           login: true,
@@ -138,33 +138,23 @@ const routes = [
           login: true,
           admin: false
         }
-      },
-      {
-        path: 'home2',
-        name: 'user-home2',
-        component: () => import('../pages/user/UserHomePage.vue'),
-        meta: {
-          title: '會員首頁',
-          login: true,
-          admin: false
-        }
       }
+      // {
+      //   path: 'home2',
+      //   name: 'user-home2',
+      //   component: () => import('../pages/user/UserHomePage.vue'),
+      //   meta: {
+      //     title: '會員首頁',
+      //     login: true,
+      //     admin: false
+      //   }
+      // }
     ]
   },
   {
     path: '/map',
     component: () => import('layouts/MapLayout.vue'),
     children: [
-      // {
-      //   path: '',
-      //   name: 'user-home',
-      //   component: () => import('../pages/map/MapPage.vue'),
-      //   meta: {
-      //     title: '地圖',
-      //     login: true,
-      //     admin: false
-      //   }
-      // }
       {
         path: '',
         name: 'user-home',

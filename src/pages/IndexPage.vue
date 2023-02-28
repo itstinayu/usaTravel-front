@@ -16,7 +16,7 @@
         @mouseleave="autoplay = true"
       >
         <q-carousel-slide :name="1" img-src="../assets/usa-img/antelope-canyon-1128815_1280.jpg" class="column no-wrap flex-center">
-          <q-icon name="travel_explore" size="56px" style="color: aliceblue;" />
+          <q-icon name="explore" size="56px" style="color: aliceblue;" />
           <h4 class="q-mt-md text-center text-h4 carousel_title">
             最佳美國自由行攻略平台
           </h4>
@@ -40,7 +40,7 @@
           </h6>
         </q-carousel-slide>
         <q-carousel-slide :name="4" img-src="../assets/usa-img/golden-gate-bridge-4271360_1280.jpg" class="column no-wrap flex-center">
-          <q-icon name="travel_explore" size="56px" style="color: aliceblue;" />
+          <q-icon name="thumb_up" size="56px" style="color: aliceblue;" />
           <h4 class="q-mt-md text-center text-h4 carousel_title">
             玩樂品質保證
           </h4>

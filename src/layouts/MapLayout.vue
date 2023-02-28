@@ -27,7 +27,6 @@
                   :rating="location[4]"
                   :numReviews="location[5]"
                   :address="location[3]"
-                  :web_url="location[7]"
                 />
               </q-item>
             </q-list>

@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="hHh Lpr lff" container style="height: 1080px" class="shadow-2 rounded-borders">
+  <q-layout view="hHh Lpr lff" container style="height: 1080px" class="overflow-hidden shadow-2 rounded-borders">
     <q-header elevated class="primary">
       <q-toolbar>
         <q-btn flat @click="drawer = !drawer" round dense icon="menu" />
@@ -89,6 +89,4 @@ const { account, avatar } = storeToRefs(user)
 </script>
 
 <style lang="sass">
-.absolute-full
-  right: 0 !important
 </style>

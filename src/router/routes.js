@@ -102,7 +102,7 @@ const routes = [
       {
         path: '',
         name: 'user-home',
-        component: () => import('../pages/user/HomePage.vue'),
+        component: () => import('../pages/user/UserHomePage.vue'),
         meta: {
           title: '會員首頁',
           login: true,

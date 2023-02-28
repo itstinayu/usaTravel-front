@@ -280,15 +280,15 @@ const showPlaces = () => {
 }
 
 const typeOptions = [
-  { label: 'Restaurants', value: 'restaurants' },
-  { label: 'Hotels', value: 'hotels' },
-  { label: 'Attractions', value: 'attractions' }
+  { label: '餐廳', value: '餐廳' },
+  { label: '飯店', value: '飯店' },
+  { label: '景點', value: '景點' }
 ]
 const ratingOptions = [
-  { label: 'All', value: 0 },
-  { label: 'Above 3.0', value: 3 },
-  { label: 'Above 4.0', value: 4 },
-  { label: 'Above 4.5', value: 4.5 }
+  { label: '全部', value: 0 },
+  { label: '3.0以上', value: 3 },
+  { label: '4.0以上', value: 4 },
+  { label: '4.5以上', value: 4.5 }
 ]
 
 </script>

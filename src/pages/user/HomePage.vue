@@ -1,3 +1,3 @@
 <template>
-  <h5>一般會員頁</h5>
+  <h6 align="center">會員頁</h6>
 </template>

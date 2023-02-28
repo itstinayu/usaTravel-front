@@ -46,21 +46,21 @@
             </q-item-section>
           </q-item>
 
-          <!-- <q-item v-ripple clickable to="/user/home2">
+          <q-item v-ripple clickable to="/user/calender">
             <q-item-section avatar>
               <q-icon name="calendar_month" />
             </q-item-section>
             <q-item-section>
               月曆記事本
             </q-item-section>
-          </q-item> -->
+          </q-item>
 
         </q-list>
       </q-scroll-area>
 
       <div class="absolute-top bg-secondary" style="height: 150px">
         <div class="absolute-bottom bg-transparent q-pa-md" clickable>
-          <q-btn round clickable to="/user/home">
+          <q-btn round clickable to="/user">
             <img :src="avatar" >
           </q-btn>
           <div class="text-weight-bold" :title="account">

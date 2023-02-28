@@ -57,9 +57,9 @@ import { apiAuth } from 'boot/axios.js'
 import { useQuasar } from 'quasar'
 import ProductCard from 'components/TicketCard.vue'
 import GuideCard from 'components/GuideCard.vue'
-import { useRouter } from 'vue-router'
+// import { useRouter } from 'vue-router'
 
-const router = useRouter()
+// const router = useRouter()
 
 const $q = useQuasar()
 const tab = ref('我的票券收藏')
@@ -112,16 +112,16 @@ const changeProductArchive = (_id) => {
     // console.log(index)
     if (index !== -1) {
       products.splice(index, 1)
-      $q.notify(
-        {
-          position: 'center',
-          color: 'positive',
-          message: '成功編輯收藏',
-          icon: 'check_circle',
-          timeout: 2000
-        }
-      )
-      router.push('/user/archive')
+      // $q.notify(
+      //   {
+      //     position: 'center',
+      //     color: 'positive',
+      //     message: '成功編輯收藏',
+      //     icon: 'check_circle',
+      //     timeout: 2000
+      //   }
+      // )
+      // router.push('/user/archive')
     }
   } catch (error) {
     console.log(error)
@@ -143,15 +143,15 @@ const changeArchive = (_id) => {
     if (index !== -1) {
       guides.splice(index, 1)
       // console.log(_id)
-      $q.notify(
-        {
-          position: 'center',
-          color: 'positive',
-          message: '成功編輯收藏',
-          icon: 'check_circle',
-          timeout: 2000
-        }
-      )
+      // $q.notify(
+      //   {
+      //     position: 'center',
+      //     color: 'positive',
+      //     message: '成功編輯收藏',
+      //     icon: 'check_circle',
+      //     timeout: 2000
+      //   }
+      // )
     }
   } catch (error) {
     $q.notify(

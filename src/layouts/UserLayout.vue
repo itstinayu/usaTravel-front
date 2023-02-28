@@ -89,4 +89,6 @@ const { account, avatar } = storeToRefs(user)
 </script>
 
 <style lang="sass">
+.absolute-full
+  right: 0 !important
 </style>

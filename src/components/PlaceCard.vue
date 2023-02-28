@@ -10,7 +10,7 @@
       <div class="q-mt-md">
         <q-item-label caption>
           <q-icon name="remove_red_eye" class="q-mr-sm" />
-          {{ numReviews }} 瀏覽次數{{ numReviews > 1 ? 's' : '' }}
+          {{ numReviews }} 瀏覽次數
         </q-item-label>
       </div>
       <q-item-label>

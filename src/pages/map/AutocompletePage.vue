@@ -64,8 +64,8 @@ const mapEl = ref(null)
 const infowindowEl = ref(null)
 const placeNameEl = ref(null)
 const placeAddressEl = ref(null)
-const type = ref('restaurants')
-const rating = ref('')
+const type = ref('餐廳')
+const rating = ref('全部')
 
 const locations = {
   restaurants: [],
@@ -286,9 +286,9 @@ const typeOptions = [
 ]
 const ratingOptions = [
   { label: '全部', value: 0 },
-  { label: '3.0以上', value: 3 },
-  { label: '4.0以上', value: 4 },
-  { label: '4.5以上', value: 4.5 }
+  { label: '3.0 以上', value: 3 },
+  { label: '4.0 以上', value: 4 },
+  { label: '4.5 以上', value: 4.5 }
 ]
 
 </script>

@@ -144,7 +144,7 @@ const routes = [
         name: 'user-calender',
         component: () => import('../pages/user/UserCalenderPage.vue'),
         meta: {
-          title: '會員首頁',
+          title: '會員行事曆',
           login: true,
           admin: false
         }
@@ -196,7 +196,7 @@ const routes = [
         name: 'admin-tickets',
         component: () => import('../pages/admin/TicketsPage.vue'),
         meta: {
-          title: '商品管理',
+          title: '票券管理',
           login: true,
           admin: true
         }

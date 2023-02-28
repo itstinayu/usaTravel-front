@@ -1,5 +1,5 @@
 <template>
-  <h5 class="text-center q-pa-lg">我的記事本</h5>
+  <h5 class="text-center q-pa-lg">我的行事曆</h5>
   <q-separator inset />
   <q-splitter v-model="splitterModel" class="q-ma-xs">
     <template v-slot:before>

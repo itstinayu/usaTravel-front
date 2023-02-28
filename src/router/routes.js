@@ -240,7 +240,7 @@ const routes = [
       {
         path: 'example',
         name: 'example',
-        component: () => import('../pages/user/UserArchivePage.vue'),
+        component: () => import('../pages/user/ExamplePage.vue'),
         meta: {
           title: 'example',
           login: true,

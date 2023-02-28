@@ -157,7 +157,7 @@ const routes = [
     children: [
       {
         path: '',
-        name: 'user-home',
+        name: 'user-map',
         component: () => import('../pages/map/AutocompletePage.vue'),
         meta: {
           title: '地圖',

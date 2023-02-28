@@ -238,11 +238,11 @@ const routes = [
     component: () => import('layouts/ExampleLayout.vue'),
     children: [
       {
-        path: 'archive',
-        name: 'user-archive',
+        path: 'example',
+        name: 'example',
         component: () => import('../pages/user/UserArchivePage.vue'),
         meta: {
-          title: '會員典藏頁',
+          title: 'example',
           login: true,
           admin: false
         }

@@ -64,8 +64,8 @@ const mapEl = ref(null)
 const infowindowEl = ref(null)
 const placeNameEl = ref(null)
 const placeAddressEl = ref(null)
-const type = ref('餐廳')
-const rating = ref('全部')
+const type = ref('restaurants')
+const rating = ref('')
 
 const locations = {
   restaurants: [],
@@ -181,8 +181,7 @@ const mapData = (data) => {
     data.address,
     data.rating,
     data.num_reviews,
-    data.photo?.images?.small?.url,
-    data.web_url
+    data.photo?.images?.small?.url
   ]
 }
 const getPlaceData = async (bounds) => {
@@ -280,15 +279,15 @@ const showPlaces = () => {
 }
 
 const typeOptions = [
-  { label: '餐廳', value: '餐廳' },
-  { label: '飯店', value: '飯店' },
-  { label: '景點', value: '景點' }
+  { label: 'Restaurants', value: 'restaurants' },
+  { label: 'Hotels', value: 'hotels' },
+  { label: 'Attractions', value: 'attractions' }
 ]
 const ratingOptions = [
-  { label: '全部', value: 0 },
-  { label: '3.0 以上', value: 3 },
-  { label: '4.0 以上', value: 4 },
-  { label: '4.5 以上', value: 4.5 }
+  { label: 'All', value: 0 },
+  { label: 'Above 3.0', value: 3 },
+  { label: 'Above 4.0', value: 4 },
+  { label: 'Above 4.5', value: 4.5 }
 ]
 
 </script>

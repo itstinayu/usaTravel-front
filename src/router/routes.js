@@ -233,7 +233,22 @@ const routes = [
       }
     ]
   },
-
+  {
+    path: '/example',
+    component: () => import('layouts/ExampleLayout.vue'),
+    children: [
+      {
+        path: 'archive',
+        name: 'user-archive',
+        component: () => import('../pages/user/UserArchivePage.vue'),
+        meta: {
+          title: '會員典藏頁',
+          login: true,
+          admin: false
+        }
+      }
+    ]
+  },
   // Always leave this as last one,
   // but you can also remove it
   {

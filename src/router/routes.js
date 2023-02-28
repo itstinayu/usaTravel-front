@@ -233,22 +233,6 @@ const routes = [
       }
     ]
   },
-  {
-    path: '/example',
-    component: () => import('layouts/ExampleLayout.vue'),
-    children: [
-      {
-        path: 'example',
-        name: 'example',
-        component: () => import('../pages/user/ExamplePage.vue'),
-        meta: {
-          title: 'example',
-          login: true,
-          admin: false
-        }
-      }
-    ]
-  },
   // Always leave this as last one,
   // but you can also remove it
   {

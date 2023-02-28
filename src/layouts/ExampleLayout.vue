@@ -88,3 +88,7 @@ export default {
   }
 }
 </script>
+<style lang="sass">
+.scroll
+  width: calc(100% + 30px)
+</style>

@@ -1,5 +1,5 @@
 <template>
-  <h5 class="text-center q-pa-lg">會員管理</h5>
+  <h5 class="text-center q-pa-lg">會員資料</h5>
   <q-separator inset />
 
   <div class="q-pa-md q-gutter-xl">

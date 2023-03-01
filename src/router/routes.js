@@ -8,7 +8,7 @@ const routes = [
         name: 'home',
         component: () => import('pages/IndexPage.vue'),
         meta: {
-          title: '首頁',
+          title: '美好自遊',
           login: false,
           admin: false
         }

@@ -6,7 +6,7 @@
         <q-btn round flat :ripple="false" size="19px" color="white" class="q-mr-sm" no-caps to="/" >
           <q-img src="../assets/statue-of-liberty.png" width="48px" class="logo"/>
         </q-btn>
-        <q-toolbar-title>美好自由後台管理系統</q-toolbar-title>
+        <q-toolbar-title>美好自遊-後台管理系統</q-toolbar-title>
       </q-toolbar>
     </q-header>
 

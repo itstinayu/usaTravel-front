@@ -4,11 +4,11 @@
     <!-- </q-card-section> -->
     <q-card-section style="height: 150px">
       <div class="row items-center">
-        <div class="col text-h6 link-name">
+        <div class="col text-h6 link-name" style="font-size: 1.2rem">
           <router-link :to="'/ticket/' + _id" class="text-black q-pa-md">
             {{ name }}
           </router-link>
-          <div class="text-body1 text-grey">
+          <div class="text-body1 text-grey" style="font-size: 1rem">
             {{ subtitle }}
           </div>
         </div>

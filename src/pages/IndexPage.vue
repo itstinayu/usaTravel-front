@@ -1,6 +1,6 @@
 <template>
-  <div id="IndexPage" />
-  <q-page class="flex-center">
+  <div/>
+  <q-page id="IndexPage" class="flex-center">
     <div id="storyPage">
       <div class="bg text-center" style="padding-top: 100px; padding-bottom: -70vh;">
         <div class="run">
@@ -19,7 +19,7 @@
         </div>
       </div>
     </div>
-    <div class="q-md">
+    <div class="q-md index">
       <!-- carousel ----------------------------------->
       <q-carousel
         v-model="slide"
@@ -381,6 +381,13 @@ const swiperOptions = {
   filter: brightness(0) saturate(100%) invert(63%) sepia(95%) saturate(990%) hue-rotate(339deg) brightness(94%) contrast(90%)
 .parallaxBg2
   filter: brightness(20) saturate(100%) invert(45%) sepia(50%) saturate(990%) hue-rotate(1deg) brightness(110%) contrast(120%)
+#IndexPage
+  position: relative
+  .index
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
 </style>
 <style type="text/css">
     .st0{fill:none;stroke:rgba(255, 0, 0, 0);stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}

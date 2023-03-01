@@ -45,7 +45,7 @@
 
   <div class="row">
     <!-- left column for options -->
-    <div class="col-lg-1 col-md-2 col-sm-4 col-xs-6">
+    <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
       <div class="q-pa-md">
         <div class="fixed" style="width: 150px;">
           <h6 class="q-pl-sm bg-primary text-white">
@@ -65,7 +65,7 @@
     </div>
 
     <!-- right column for products -->
-    <div class="col-lg-11 col-md-10 col-sm-8 col-xs-6 q-pa-md">
+    <div class="col-lg-10 col-md-10 col-sm-8 col-xs-6 q-pt-md">
       <div class="text-center">
         <div class="row q-col-gutter-md">
           <div

@@ -86,7 +86,7 @@
             <p>加入會員享極速預訂、免排隊入場、免費取消等服務，輕鬆玩，無負擔</p>
           </section>
           <section class="card item2"
-            style="background-image: url('https://cdn.pixabay.com/photo/2017/03/03/16/28/statue-of-liberty-2114376__340.jpg'); background-repeat: no-repeat; background-size: 300px;background-position: center;
+            style="background-image: url('https://cdn.pixabay.com/photo/2017/03/03/16/28/statue-of-liberty-2114376__340.jpg'); background-repeat: no-repeat; background-size: 350px;background-position: center;
             ">
             <h2>紐約-自由女神</h2>
           </section>
@@ -99,7 +99,7 @@
             ">
           </section>
           <section class="card item5"
-            style="background-image: url('https://images.unsplash.com/photo-1483406354872-3e1be6d48c20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGxhcyUyMHZlZ2FzJTIwc2t5fGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=400&q=60'); background-repeat: no-repeat; background-size: 300px ;background-position: center;
+            style="background-image: url('https://images.unsplash.com/photo-1483406354872-3e1be6d48c20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGxhcyUyMHZlZ2FzJTIwc2t5fGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=400&q=60'); background-repeat: no-repeat; background-size: 350px ;background-position: center;
             ">
             <h2>拉斯維加斯賭城</h2>
           </section>

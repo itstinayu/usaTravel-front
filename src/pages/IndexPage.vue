@@ -91,11 +91,11 @@
             <h2>紐約-自由女神</h2>
           </section>
           <section class="card item3"
-            style="background-image: url('https://cdn.pixabay.com/photo/2016/11/23/18/26/architecture-1854220__340.jpg'); background-repeat: no-repeat; background-size: 739px;background-position: center;
+            style="background-image: url('https://cdn.pixabay.com/photo/2016/11/23/18/26/architecture-1854220__340.jpg'); background-repeat: no-repeat; background-size: cover;background-position: center;
             ">
           </section>
           <section class="card item4"
-            style="background-image: url('https://cdn.pixabay.com/photo/2016/08/16/17/32/hollywood-sign-1598473__340.jpg'); background-repeat: no-repeat; background-position: center;
+            style="background-image: url('https://cdn.pixabay.com/photo/2016/08/16/17/32/hollywood-sign-1598473__340.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover ;
             ">
           </section>
           <section class="card item5"
@@ -104,7 +104,7 @@
             <h2>拉斯維加斯賭城</h2>
           </section>
           <section class="card item7"
-            style="background-image: url('https://images.unsplash.com/photo-1561338816-dcaaaacc7cbd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1pYW1pYmVhY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60'); background-repeat: no-repeat; background-size: 300px; background-position: center;
+            style="background-image: url('https://images.unsplash.com/photo-1561338816-dcaaaacc7cbd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1pYW1pYmVhY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60'); background-repeat: no-repeat; background-size: 350px; background-position: center;
             ">
           </section>
           <section class="card item8"
@@ -113,11 +113,11 @@
               <h2>加州-迪士尼</h2>
           </section>
           <section class="card item9"
-            style="background-image: url('https://images.unsplash.com/photo-1636313857176-c89777bacacd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c291dGglMjBsYXMlMjB2ZWdhcyUyMGJvdWxldmFyZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60'); background-repeat: no-repeat; background-size: 250px; background-position: center;
+            style="background-image: url('https://images.unsplash.com/photo-1636313857176-c89777bacacd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c291dGglMjBsYXMlMjB2ZWdhcyUyMGJvdWxldmFyZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60'); background-repeat: no-repeat; background-size: cover; background-position: center;
             ">
           </section>
           <section class="card item10"
-          style="background-image: url('https://cdn.pixabay.com/photo/2020/06/28/00/04/chicago-5347435_960_720.jpg'); background-repeat: no-repeat; background-size: 300px;background-position: center;
+          style="background-image: url('https://cdn.pixabay.com/photo/2020/06/28/00/04/chicago-5347435_960_720.jpg'); background-repeat: no-repeat; background-size: 350px;background-position: center;
             ">
           </section>
           <section class="card item11"

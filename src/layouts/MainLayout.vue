@@ -29,9 +29,9 @@
           <router-link :to="'/guides/'">
             常見QA
           </router-link>
-          <a href="#photoShare" class="text-white photoShare" >
+          <!-- <a href="#photoShare" class="text-white photoShare" >
             分享牆
-          </a>
+          </a> -->
         </div>
 
         <q-space />
